@@ -2,6 +2,9 @@ import unittest
 from controllers import LampController
 
 class TestLampController(unittest.TestCase):
+    def setUpController(self):
+        self.controller = LampController()
+    
     def test_set_on(self):
         controller = LampController()
         controller.set_on()
