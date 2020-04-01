@@ -9,6 +9,7 @@ class LampController:
         self.lamp.set_on()
 
     def set_off(self):
+        #change lamp status to OFF
         self.lamp.set_off()
 
     def get_status(self):
